@@ -1,0 +1,36 @@
+1568138151444	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.AtxhC7WMRMDR"
+1568138153416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568138153416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568138153417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568138153417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568138157622	Marionette	INFO	Listening on port 54294
+1568138194223	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.Q1PaEExKdNPt"
+1568138195104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568138195104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568138195104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568138195105	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568138197986	Marionette	INFO	Listening on port 54369
+1568138198025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.fantasycruncher.com"
+console.warn: nsLoginManager: "searchLogins: `formActionOrigin` or `httpRealm` is recommended"
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:64:20\nonMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:429:12\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:64:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:429:12
+
+JavaScript error: , line 0: uncaught exception: out of memory
+JavaScript error: https://www.w3schools.com/cssref/css_selectors.asp, line 14: ReferenceError: osdlfm is not defined
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 89: TypeError: this.element is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICacheInfoChannel.isRacing]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-response-listener.js :: NetworkResponseListener.prototype._getSecurityInfo< :: line 334"  data: no]
+Stack: NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/server/actors/network-monitor/network-response-listener.js:334:26
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+onStartRequest@resource://devtools/server/actors/network-monitor/network-response-listener.js:226:10
+Line: 334, column: 0
+console.error: ({})
