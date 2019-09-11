@@ -34,3 +34,261 @@ exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:1
 onStartRequest@resource://devtools/server/actors/network-monitor/network-response-listener.js:226:10
 Line: 334, column: 0
 console.error: ({})
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1568169759614	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.1NUjc4fJVbaG"
+1568169760026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568169760026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568169760026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568169760026	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568169761485	Marionette	INFO	Listening on port 62023
+1568169761555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1568205433680	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.nnkqVsoAlBzG"
+1568205434072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568205434072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568205434072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568205434073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568205435670	Marionette	INFO	Listening on port 61543
+1568205435722	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10977, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1568205922246	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.0kdckbo6XLQ7"
+1568205922674	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568205922675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568205922675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568205922675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568205924095	Marionette	INFO	Listening on port 63643
+1568205924188	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568207857155	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.hN3TCQbLHmcB"
+1568207857615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568207857615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568207857616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568207857616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568207859118	Marionette	INFO	Listening on port 55681
+1568207859182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11167, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568215760293	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.WIEgj0YFsTUZ"
+1568215760725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568215760725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568215760725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568215760725	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568215762167	Marionette	INFO	Listening on port 57631
+1568215762239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 11486, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568216180901	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.hFlDvPKM6FCf"
+1568216181330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568216181330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568216181330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568216181330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568216182858	Marionette	INFO	Listening on port 57921
+1568216182940	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568216227819	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.XNbtUhKw6gKB"
+1568216228178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568216228178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568216228179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568216228179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568216229553	Marionette	INFO	Listening on port 58031
+1568216229651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568217706531	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.P1PrFOgHFmFQ"
+1568217706865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568217706866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568217706866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568217706866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568217708190	Marionette	INFO	Listening on port 58595
+1568217708271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568217789119	Marionette	INFO	Stopped listening on port 54294
+1568218326208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.3WvU8OhqWN36"
+1568218326567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568218326567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568218326567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568218326567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568218327918	Marionette	INFO	Listening on port 59180
+1568218327949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 89: TypeError: this.element is null
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1568219080059	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.4lgs6PQDyW4M"
+1568219080397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568219080397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568219080397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568219080397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568219081672	Marionette	INFO	Listening on port 59438
+1568219081699	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1568219193383	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.CAQqpJAJYfo9"
+1568219193716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568219193716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568219193716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568219193716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568219195051	Marionette	INFO	Listening on port 59560
+1568219195122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568219340627	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.ExDYftrIUVdz"
+1568219340960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568219340960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568219340961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568219340961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568219342325	Marionette	INFO	Listening on port 59681
+1568219342364	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568219474308	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.v4n3cXCyVyuP"
+1568219474672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568219474672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568219474672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568219474672	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568219476097	Marionette	INFO	Listening on port 59785
+1568219476149	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12061, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1568220196943	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.wtEsnhL49HbZ"
+1568220197311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568220197311	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568220197312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568220197312	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568220198659	Marionette	INFO	Listening on port 59982
+1568220198685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12107, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12105, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+1568220696939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.ImeDWhO8ci75"
+1568220697284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568220697284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568220697284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568220697284	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568220698593	Marionette	INFO	Listening on port 60204
+1568220698683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12160, Chrome_ChildThread] WARNING: pipe error: Socket is not connected: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1568221226096	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.RPRWNJ2IXmAv"
+1568221226474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568221226474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568221226474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568221226474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568221227784	Marionette	INFO	Listening on port 60356
+1568221227824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568221718832	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.GECd9xIr9zB0"
+1568221719166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568221719166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568221719167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568221719167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568221720479	Marionette	INFO	Listening on port 60473
+1568221720560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
