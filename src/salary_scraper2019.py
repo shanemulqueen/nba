@@ -36,9 +36,9 @@ if __name__ == '__main__':
     tr_selector = "/html/body/div[3]/div[1]/div[1]/div/div[2]/div[8]/div[1]/div[2]/table/tbody/tr"
     print('Opening Data')
 
-    salary_data = pd.read_csv('data/salary_data2017.csv')
+    salary_data = pd.read_csv('data/salary_data2019.csv')
     prefix = "data/bb_reference/"
-    years = ['2017Data.csv']
+    years = ['2019Data.csv']
     data = pd.DataFrame()
     print("")
     for year in years:
@@ -74,5 +74,4 @@ if __name__ == '__main__':
         except:
             print("error {}".format(date))
     print("Done!")
-    salary_data = salary_data.append(salary_data2)
-    salary_data.to_csv('data/salary_data2017.csv',index = False)
+    salary_data2.to_csv('data/salary_data2019.csv',index = False )
