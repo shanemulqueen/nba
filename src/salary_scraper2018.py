@@ -74,4 +74,5 @@ if __name__ == '__main__':
         except:
             print("error {}".format(date))
     print("Done!")
-    salary_data2.to_csv('data/salary_data2018.csv',index = False)
+    salary_data = salary_data.append(salary_data2)
+    salary_data.to_csv('data/salary_data2018.csv',index = False)
