@@ -356,3 +356,113 @@ JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.
 1568250481263	Marionette	INFO	Stopped listening on port 60473
 JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
 JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568252269972	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.jx775tn5xbVw"
+1568252270468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568252270468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568252270468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568252270468	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568252272278	Marionette	INFO	Listening on port 64216
+1568252272324	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568252288209	Marionette	INFO	Stopped listening on port 65300
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568252299633	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.ycMfTwTKzpD5"
+1568252300085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568252300085	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568252300086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568252300086	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568252302001	Marionette	INFO	Listening on port 64428
+1568252302077	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568252306979	Marionette	INFO	Stopped listening on port 62579
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568256918438	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.OPaDofY7qZlH"
+1568256918912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568256918912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568256918912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568256918912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568256920725	Marionette	INFO	Listening on port 65110
+1568256920794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568256930612	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.VTR1mGpHm11G"
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 260: TypeError: Argument 1 of InspectorUtils.setContentState is not an object.
+JavaScript error: , line 0: NS_ERROR_UNEXPECTED: 
+1568256931144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568256931144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568256931144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568256931144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568256932976	Marionette	INFO	Listening on port 65283
+1568256933076	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568256944049	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.4syPGUXF2PKm"
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568256944698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568256944698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568256944698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568256944698	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568256946775	Marionette	INFO	Listening on port 65474
+1568256946818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568256951033	Marionette	INFO	Stopped listening on port 57481
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568256955524	Marionette	INFO	Stopped listening on port 64216
+1568256957823	Marionette	INFO	Stopped listening on port 64428
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568290942694	Marionette	INFO	Stopped listening on port 65110
+1568290944717	Marionette	INFO	Stopped listening on port 65283
+1568290947062	Marionette	INFO	Stopped listening on port 65474
+1568292676921	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.gf4xQBsse6lD"
+1568292677460	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568292677460	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568292677461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568292677461	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568292679217	Marionette	INFO	Listening on port 53187
+1568292679277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568292683302	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.XSPliSqcwYqa"
+1568292683770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568292683770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568292683770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568292683770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568292685596	Marionette	INFO	Listening on port 53330
+1568292685666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568301722101	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.tLPkfgGqCkAN"
+1568301722558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568301722558	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568301722559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568301722559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568301724373	Marionette	INFO	Listening on port 64194
+1568301724456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+1568301732172	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/hm/3bl2tnvn0nn7pspt7n8j7cy80000gn/T/rust_mozprofile.judj2fDGp91d"
+1568301732693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1568301732694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1568301732694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1568301732694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1568301734607	Marionette	INFO	Listening on port 64384
+1568301734638	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript warning: https://www.fantasycruncher.com/js/jquery.handsontable.full.js, line 6209: unreachable code after return statement
+JavaScript error: https://br-rx.atatus.com/track/browser/perf/pageload?data=%7B%22nt%22%3A62%2C%22dp%22%3A2154%2C%22pr%22%3A500%2C%22ts%22%3A1568302143847%2C%22apikey%22%3A%22b450e793e5bb454db30e22bb29075b6b%22%2C%22request%22%3A%7B%22url%22%3A%22https%3A%2F%2Fwww.fantasycruncher.com%2Flineup-rewind%2Fdraftkings%2FNBA%2F2018-10-21%22%2C%22ua%22%3A%22Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010.14%3B%20rv%3A69.0)%20Gecko%2F20100101%20Firefox%2F69.0%22%2C%22w%22%3A2048%2C%22h%22%3A1280%7D%2C%22tags%22%3A%5B%5D%2C%22user%22%3Anull%2C%22aid%22%3A%22ad7d91ab77fe48248720e60ea0a7188d%22%2C%22sid%22%3A%223757715678b143e992b968a3f93ad96f%22%2C%22v%22%3A%22%22%2C%22_v%22%3A%223.0.9%22%7D&callback=atatus._setFeatures, line 1: SyntaxError: expected expression, got '<'
