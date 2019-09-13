@@ -1,3 +1,5 @@
 .ipynb_checkpoints*
 .env
 geckodriver.log
+
+.DS_Store

@@ -48,7 +48,7 @@ if __name__ == '__main__':
     print(last_end)
     dates = data[data['date']>last_end]['date'].unique()
     salary_data2 = pd.DataFrame()
-    for date in dates[0:20]:
+    for date in dates[0:40]:
         time.sleep(1)
         br.visit(rewind_base+date)
         table = br.find_by_xpath(tr_selector)
