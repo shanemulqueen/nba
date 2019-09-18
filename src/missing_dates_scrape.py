@@ -39,7 +39,7 @@ if __name__ == '__main__':
     dates = []
     for line in f.readlines():
         dates.append(line.strip())
-    salary_data = pd.read_csv('data/salary_data_gaps.csv')
+    #salary_data = pd.read_csv('data/salary_data_gaps.csv')
     data = pd.DataFrame()
     salary_data2 = pd.DataFrame()
     for date in dates[20:]:
@@ -68,5 +68,6 @@ if __name__ == '__main__':
         except:
             print("error {}".format(date))
     print("Done!")
-    salary_data = salary_data.append(salary_data2)
-    salary_data.to_csv('data/salary_data_gaps.csv',index = False)
+    #salary_data = salary_data.append(salary_data2)
+    #salary_data.to_csv('data/salary_data_gaps.csv',index = False)
+    salary_data2.to_csv('data/salary_data_gaps3.csv',index = False)
