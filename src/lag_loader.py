@@ -48,7 +48,7 @@ if __name__ == '__main__':
     slug_names = {player:name for player,name in zip(players,names)}
     name_slugs = {name:player for player,name in zip(players,names)}
     lags = [1,2,3,6,11,22,33]
-    for player in players[35:40]:
+    for player in players[200:215]:
         now = time.time()
         for lag in lags:
             single = data[data['slug']==player]
