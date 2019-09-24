@@ -42,35 +42,53 @@ if __name__ == '__main__':
     data = data.rename(columns={'Unnamed: 0_x':'gamescore_rank'})
     clnr = Cleaner()
     data = clnr.transform(data)
+
+    pe = "slug, #dt, minutes_06"
+    ea = {"#dt":"date"}
+    
     data['date']=data['dt'].apply(lambda x: x.strftime("%Y-%m-%d"))
     players = data['slug'].unique()
     names = data['player'].unique()
-    slug_names = {player:name for player,name in zip(players,names)}
-    name_slugs = {name:player for player,name in zip(players,names)}
+    slug_names = {}
+    name_slugs = {}
+    for row in data[['slug','player']].groupby('slug').agg('first').iterrows():
+        slug_names[row[0]]=row[1]['player']
+        name_slugs[row[1]['player']]=row[0]
     lags = [1,2,3,6,11,22,33]
-    for player in players[200:215]:
-        now = time.time()
-        for lag in lags:
-            single = data[data['slug']==player]
-            lag_df = clnr.gameplay_stats(single,player_col = 'slug',lag = lag)
-            if len(lag_df)>0:
-                lag_df['id']= lag_df['date']+lag_df['slug']
-                lag_df['name']=slug_names[player]
-                for ind, elem in enumerate(lag_df.iloc[0,:]):
-                    if (str(type(elem))=="<class 'numpy.float64'>"):
-                        lag_df.iloc[:,ind] = lag_df.iloc[:,ind].apply(lambda x : Decimal(x).quantize(Decimal('.001')))
-                dict_row = lag_df.iloc[0,:].to_dict()
-                key  = dict_row.pop('id')
-                ean = {"#"+key : key for key in dict_row.keys()}
-                ue = "SET " + ', '.join(["#"+key +" = :"+key for key in dict_row.keys()])
-                with table.batch_writer() as batch:
-                    for row in lag_df.iterrows():
-                        dict_row = row[1].to_dict()
-                        key  = dict_row.pop('id')
-                        eav = {":"+key : dict_row[key] for key in dict_row.keys()}
-                        table.update_item(Key={'id':key},
-                                 ExpressionAttributeNames = ean,
-                                 ExpressionAttributeValues = eav,
-                                 UpdateExpression = ue)
-            print("done with {} lag ({})".format(lag,len(lag_df)))
-        print("Done with {} in {:.01f}".format(slug_names[player],(time.time()-now)/60))
+    for player in players[20:50]:
+        kce = Key('slug').eq(player)
+        resp = table.query(IndexName = 'slug-date-index', KeyConditionExpression = kce,
+                ExpressionAttributeNames =ea,
+                ProjectionExpression = pe,
+                ScanIndexForward = False,
+                Limit = 1
+                )['Items']
+        if len(resp)>0:
+            print("{} already done".format(slug_names[player]))
+        else:
+            print("working on {}".format(slug_names[player]))
+            now = time.time()
+            for lag in lags:
+                single = data[data['slug']==player]
+                lag_df = clnr.gameplay_stats(single,player_col = 'slug',lag = lag)
+                if len(lag_df)>0:
+                    lag_df['id']= lag_df['date']+lag_df['slug']
+                    lag_df['name']=slug_names[player]
+                    for ind, elem in enumerate(lag_df.iloc[0,:]):
+                        if (str(type(elem))=="<class 'numpy.float64'>"):
+                            lag_df.iloc[:,ind] = lag_df.iloc[:,ind].apply(lambda x : Decimal(x).quantize(Decimal('.001')))
+                    dict_row = lag_df.iloc[0,:].to_dict()
+                    key  = dict_row.pop('id')
+                    ean = {"#"+key : key for key in dict_row.keys()}
+                    ue = "SET " + ', '.join(["#"+key +" = :"+key for key in dict_row.keys()])
+                    with table.batch_writer() as batch:
+                        for row in lag_df.iterrows():
+                            dict_row = row[1].to_dict()
+                            key  = dict_row.pop('id')
+                            eav = {":"+key : dict_row[key] for key in dict_row.keys()}
+                            table.update_item(Key={'id':key},
+                                     ExpressionAttributeNames = ean,
+                                     ExpressionAttributeValues = eav,
+                                     UpdateExpression = ue)
+                print("done with {} lag ({})".format(lag,len(lag_df)))
+            print("Done with {} in {:.01f}".format(slug_names[player],(time.time()-now)/60))
