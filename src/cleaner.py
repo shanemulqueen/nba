@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import fantasy_scoring as fs
+import src.fantasy_scoring as fs
 
 
 class Cleaner(object):

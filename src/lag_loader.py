@@ -2,7 +2,6 @@ from collections import Counter
 from flask import Flask, request, render_template, jsonify
 import pickle
 import pandas as pd
-from matplotlib import pyplot as plt
 import numpy as np
 import requests
 import re
@@ -45,7 +44,7 @@ if __name__ == '__main__':
 
     pe = "slug, #dt, minutes_06"
     ea = {"#dt":"date"}
-    
+
     data['date']=data['dt'].apply(lambda x: x.strftime("%Y-%m-%d"))
     players = data['slug'].unique()
     names = data['player'].unique()
@@ -55,7 +54,7 @@ if __name__ == '__main__':
         slug_names[row[0]]=row[1]['player']
         name_slugs[row[1]['player']]=row[0]
     lags = [1,2,3,6,11,22,33]
-    for player in players[20:50]:
+    for player in players:
         kce = Key('slug').eq(player)
         resp = table.query(IndexName = 'slug-date-index', KeyConditionExpression = kce,
                 ExpressionAttributeNames =ea,

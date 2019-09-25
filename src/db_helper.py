@@ -36,5 +36,26 @@ class DB_helper(object):
             aws_secret_access_key = self.env['aws_secret_access_key'])
         self.table = self.dynamodb.Table('nba_bbref')
 
-    def get_player(slug):
-        return True
+    def get_player(self, slug,columns):
+        kce = Key('slug').eq(slug)
+        ea = {"#dt":"date"}
+        pe = "slug, #dt, " + ", ".join(columns)
+        resp = self.table.query(IndexName = 'slug-date-index', KeyConditionExpression = kce,
+                ExpressionAttributeNames =ea,
+                ProjectionExpression = pe,
+                ScanIndexForward = True,
+                )['Items']
+        output = pd.DataFrame(resp)
+        while len(resp)==391:
+            max = output['date'].sort_values().iloc[-1]
+            kce = Key('slug').eq(slug) & Key('date').gt(max)
+            resp = self.table.query(IndexName = 'slug-date-index', KeyConditionExpression = kce,
+                    ExpressionAttributeNames =ea,
+                    ProjectionExpression = pe,
+                    ScanIndexForward = True,
+                    )['Items']
+            if len(resp)>0:
+                temp_df = pd.DataFrame(resp)
+                output = output.append(temp_df)
+
+        return output
