@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import src.fantasy_scoring as fs
+import fantasy_scoring as fs
 
 
 class Cleaner(object):
@@ -9,6 +9,8 @@ class Cleaner(object):
         self.lag_cols = ['minutes','dk_score','dk_per_min','dk_no_fg','dk_no_fg_per_min','assists','assists_per_min',
                     'blocks','blocks_per_min','or_per_min','dr_per_min','steals_per_min','turnovers_per_min','doubles',
                     'fg_pct','ft_pct','two_pct','three_pct','game_score','attempted_field_goals','attempted_three_point_field_goals','w']
+        self.time_lag_sums=['attempted_field_goals','dk_score','dk_no_fg','minutes','rebounds']
+        self.time_lag_avgs=['fg_pct','three_pct','ft_pct','minutes','rebounds','w']
 
     def bb_ref_to_dk(self,data):
         """will take raw bb ref data and output to put into the dk scorer"""
@@ -79,6 +81,22 @@ class Cleaner(object):
         temp_cols = [col+"_{:02}".format(lag) for col in self.lag_cols]
         lags.columns = [player_col,date_col]+temp_cols
         return lags
+
+    def time_stats(self,data, lag =7,date_col = 'dt'):
+        #for a single player !!!!!
+
+        temp_list = [date_col] +self.time_lag_sums
+        col_names = [date_col] + [col+"_{:02}_sum".format(lag) for col in self.time_lag_sums]
+        output = data[temp_list].rolling('{}d'.format(lag), on = date_col,closed = 'left').sum().fillna(0)
+        output.columns = col_names
+
+        temp_list = [date_col] + self.time_lag_avgs
+        col_names = [date_col] + [col+"_{:02}_avg".format(lag) for col in self.time_lag_avgs]
+        temp_data = data[temp_list].rolling('{}d'.format(lag), on = date_col,closed = 'left').mean().fillna(0)
+        temp_data.columns = col_names
+        #return [output,temp_data]
+        return output.merge(temp_data,on='dt')
+
     def fit(self,data):
         self.hist = self.bb_ref_to_dk(raw_data.copy(deep=True))
         self.hist = self.transform1()
